@@ -51,7 +51,7 @@ class GaugeCard extends HTMLElement {
       .gauge-b{
         z-index: 3;
         position: absolute;
-        background-color: var(--paper-card-background-color);
+        background-color: var(--card-background-color);
         width: calc(var(--base-unit) * 2.5);
         height: calc(var(--base-unit) * 1.25);
         top: calc(var(--base-unit) * 0.75);
