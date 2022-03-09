@@ -1,5 +1,9 @@
 # Gauge card
 
+**Please read ISSUE.md for the change i made to the code**
+
+[ISSUE.md](ISSUE.md)
+
 A simple gauge implemented in CSS based on https://github.com/JohnrBell/Gauge_CSS.
 
 ![gauge-card](https://user-images.githubusercontent.com/7738048/42317998-73070c5e-8056-11e8-8621-49c61b5b7be5.gif)
