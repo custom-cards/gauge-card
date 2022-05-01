@@ -37,40 +37,40 @@ Severity object
 
 Using two with stack
 ```yaml
-- type: horizontal-stack
-  cards:
-    - type: custom:gauge-card
-      title: Temperature
-      entity: sensor.random_temperature
-      min: -20
-      max: 35
-    - type: custom:gauge-card
-      title: Oil
-      entity: sensor.my_oil_sensor
-      severity:
-        red: 50
-        green: 0
-        amber: 40
+type: horizontal-stack
+cards:
+  - type: custom:gauge-card
+    title: Temperature
+    entity: sensor.random_temperature
+    min: -20
+    max: 35
+  - type: custom:gauge-card
+    title: Oil
+    entity: sensor.my_oil_sensor
+    severity:
+      red: 50
+      green: 0
+      amber: 40
 ```
 
 Simple one
 ```yaml
-- type: custom:gauge-card
-  entity: sensor.my_oil_sensor
-  scale: 100px
+type: custom:gauge-card
+entity: sensor.my_oil_sensor
+scale: 100px
 ```
 
 Using an attribute
 ```yaml
-- type: custom:gauge-card
-  entity: climate.living_room
-  attribute: current_temperature
+type: custom:gauge-card
+entity: climate.living_room
+attribute: current_temperature
 ```
 
 Using an attribute with dot notation
 ```yaml
-- type: custom:gauge-card
-  entity: climate.living_room.current_temperature
+type: custom:gauge-card
+entity: climate.living_room.current_temperature
 ```
 
 ## Credits
